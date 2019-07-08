@@ -1,0 +1,24 @@
+import time
+import random
+print("*****************************")
+print("Welcome to the guessing game!")
+print("*****************************")
+randomnum = random.randint(1,101)
+userinput = input("\nplease enter a  number from 1 to 100")
+print("\n your number was",userinput,"and the number was",randomnum)
+if userinput == randomnum:
+    time.sleep(2)
+    print("********************************************************************")
+    print("Congratulation you have won the game! To play again run the program!")
+    print("********************************************************************")
+else:
+    time.sleep(2)
+    print("Unfortunately, you have lost, please run the program to play again")
+    time.sleep(2)
+    print("You know the bet, pay up")
+    time.sleep(2)
+    print("Some things are scarier then God")
+    
+    
+    
+
